@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
  * Description:
  * date: 2022/4/9 13:49
  *
- * @author: 邱攀攀
+ * @author:  邱攀攀
  * @version:
  * @since JDK 1.8
  */
@@ -16,6 +16,9 @@ public class TestReadWrite {
     public static void main(String[] args) {
         extracted();
     }
+
+
+
 
     private static void extracted() {
         ByteBuffer byteBuffer = ByteBuffer.allocate(10);
